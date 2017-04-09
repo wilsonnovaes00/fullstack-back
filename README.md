@@ -1,4 +1,4 @@
-# Curso de Frames Web (Backend)
+# Backend da Aplicação
  **Versão final** que implementa a API REST utilizada pelas aplicações frontend abordadas no curso.
 
 ## Organização
