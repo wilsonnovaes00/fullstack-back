@@ -1,11 +1,32 @@
-# Example FullStack - BackEnd
+# Curso de Frames Web (Backend)
+ **Versão final** que implementa a API REST utilizada pelas aplicações frontend abordadas no curso.
 
-### Rotate commands Root folder package.json:
+## Organização
+A aplicação foi organizada em duas pastas: **api** e **config**.
 
-sudo npm install
+### Config
+Basicamente para a aplicação funcionar é necessário configurar:
+- Servidor HTTP (Express)
+- Rotas para a API REST (Express/Node Restful)
+- Conexão com Banco de Dados (Mongoose/MongoDB).
 
-npm run dev
+### Api
+API REST foi implementada utilizando um módulo node chamado [node-restful](https://github.com/baugarten/node-restful).
 
-### URL
+## Configuração
 
-http://localhost:3000/
+1. Instalar os módulos do node utilizando o **npm**.
+```sh
+$ cd curso_frames_web/backend/versao_inicial
+$ npm update
+```
+
+2. Inicializar a aplicação em **modo desenvolvimento** (utilizado no curso).
+```sh
+$ npm run dev
+```
+
+3. Inicializar a aplicação em **modo produção** (Fica a dica... :P).
+```sh
+$ npm run production
+```
